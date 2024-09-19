@@ -1,0 +1,181 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    background: linear-gradient(135deg, #004d98, #ffffff); /* Gradient background */
+    color: #ffffff;
+    margin: auto;
+    padding: 0;
+    align-items: center;
+    text-align:center;
+}
+
+.navbar {
+    background: linear-gradient(135deg, #DA291C, #FFED02);
+    color: black;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar h1 {
+    margin: auto;
+    font-size: 28px;
+    text-align:center;
+}
+
+
+.card-container {
+    position: relative;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #DA291C, #800030);
+    border: 20px solid #ceab5d;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#player-photo {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow around the image */
+}
+
+#player-name {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #FFED02;
+}
+
+.player-detail {
+    margin: 5px 0;
+}
+
+.player-detail strong {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFED02;
+}
+
+.player-detail span {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#word-to-guess {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-transform: uppercase;
+    color: #FFED02;
+}
+
+#error-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+button {
+    background: linear-gradient(135deg, #FFED02, #FFA500);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 5px auto;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #FFA500, #FF4500);
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.guess-container {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#guess-input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    background-color: #FFF;
+}
+
+.suggestions {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    text-align: left;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    color: #333;
+}
+
+.suggestion-item:hover {
+    background-color: #eee;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}

@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Guess the PSG Player</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Guess the PSG Player</h1>
+    </nav>
 
+    <!-- Description Section -->
+    <div class="card-container">
+        <img id="player-photo" src="link_to_photo" alt="Player Photo">
+        <div id="word-to-guess">_ _ _ _ _</div> <!-- Underlined name -->
+        <div class="player-detail" id="player-position">Position: Centre-Back</div>
+        <div class="player-detail" id="player-nationality">Nationality: Uruguay</div>
+        <div class="player-detail" id="player-age">Age: 25</div>
+        <div class="player-detail" id="player-previous-club">Previous Club: Boston River</div>
+        <div class="player-detail" id="player-fact">Fact: Fact about Ronald Araújo</div>
+    </div>
+    <div id="error-container"></div>
+
+    <!-- Guess Input and Dropdown -->
+    <div class="guess-container">
+        <input type="text" id="guess-input" placeholder="Enter full name">
+        <div id="suggestions" class="suggestions"></div>
+    </div>
+
+    <!-- Guess and Hint Buttons -->
+    <button id="guess-button">Guess</button>
+    <button id="hint-button">Hint</button>
+    <script src="script.js"></script>
+</body>
+</html>
