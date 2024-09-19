@@ -1,6 +1,6 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
-    background: linear-gradient(135deg, #004d98, #ffffff); /* Gradient background */
+    background: #004d98;
     color: #ffffff;
     margin: auto;
     padding: 0;
@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-    background: linear-gradient(135deg, #DA291C, #FFED02);
+    background:#DA291C;
     color: black;
     padding: 20px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -99,7 +99,7 @@ body {
 }
 
 button {
-    background: linear-gradient(135deg, #FFED02, #FFA500);
+    background: linear-gradient(135deg, #FFED02, #ceab5d);
     color: black;
     border: none;
     padding: 10px 20px;
