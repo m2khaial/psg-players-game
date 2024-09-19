@@ -6,16 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
             position: "Goalkeeper",
             nationality: "Italy",
             previousClub: "AC Milan",
-            photo: "https://psg.fr/gianluigi-donnarumma.jpg",
-            fact: ""
-        },
-        {
-            name: "Keylor Navas",
-            age: 37,
-            position: "Goalkeeper",
-            nationality: "Costa Rica",
-            previousClub: "Real Madrid",
-            photo: "https://psg.fr/keylor-navas.jpg",
+            photo: "https://www.psg.fr/media/207154/joueurs-24-25_0001_donarumma.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
             fact: ""
         },
         {
@@ -24,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
             position: "Centre-Back",
             nationality: "Brazil",
             previousClub: "AS Roma",
-            photo: "https://psg.fr/marquinhos.jpg",
+            photo: "https://www.psg.fr/media/27046/joueurs-24-25_0023_marquinhos.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
             fact: ""
         },
         {
@@ -33,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
             position: "Centre-Back",
             nationality: "Slovakia",
             previousClub: "Inter Milan",
-            photo: "https://psg.fr/milan-skriniar.jpg",
+            photo: "https://www.psg.fr/media/249240/joueurs-24-25_0017_skriniar.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
             fact: ""
         },
         {
@@ -42,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
             position: "Right-Back",
             nationality: "Morocco",
             previousClub: "Inter Milan",
-            photo: "https://psg.fr/achraf-hakimi.jpg",
+            photo: "https://www.psg.fr/media/207376/joueurs-24-25_0010_hakimi.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
             fact: ""
         },
         {
@@ -51,16 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
             position: "Left-Back",
             nationality: "France",
             previousClub: "Bayern Munich",
-            photo: "https://psg.fr/lucas-hernandez.jpg",
-            fact: ""
-        },
-        {
-            name: "Danilo Pereira",
-            age: 32,
-            position: "Centre-Back/Defensive Midfielder",
-            nationality: "Portugal",
-            previousClub: "FC Porto",
-            photo: "https://psg.fr/danilo-pereira.jpg",
+            photo: "https://www.psg.fr/media/249249/joueurs-24-25_hernandez.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
             fact: ""
         },
         {
@@ -69,25 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
             position: "Left-Back",
             nationality: "Portugal",
             previousClub: "Sporting CP",
-            photo: "https://psg.fr/nuno-mendes.jpg",
-            fact: ""
-        },
-        {
-            name: "Manuel Ugarte",
-            age: 22,
-            position: "Defensive Midfielder",
-            nationality: "Uruguay",
-            previousClub: "Sporting CP",
-            photo: "https://psg.fr/manuel-ugarte.jpg",
-            fact: ""
-        },
-        {
-            name: "Marco Verratti",
-            age: 31,
-            position: "Center Midfielder",
-            nationality: "Italy",
-            previousClub: "Pescara",
-            photo: "https://psg.fr/marco-verratti.jpg",
+            photo: "https://www.psg.fr/media/210082/joueurs-24-25_0014_mendes.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
             fact: ""
         },
         {
@@ -96,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function() {
             position: "Center Midfielder",
             nationality: "Portugal",
             previousClub: "FC Porto",
-            photo: "https://psg.fr/vitinha.jpg",
+            photo: "https://www.psg.fr/media/227375/joueurs-24-25_0021_vitinha.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
             fact: ""
         },
         {
@@ -105,16 +69,16 @@ document.addEventListener("DOMContentLoaded", function() {
             position: "Center Midfielder",
             nationality: "France",
             previousClub: "PSG Youth",
-            photo: "https://psg.fr/warren-zaire-emery.jpg",
+            photo: "https://www.psg.fr/media/229097/joueurs-24-25_0019_zaire.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
             fact: ""
         },
         {
-            name: "Kylian Mbappé",
-            age: 25,
-            position: "Striker",
-            nationality: "France",
-            previousClub: "AS Monaco",
-            photo: "https://psg.fr/kylian-mbappe.jpg",
+            name: "Marco Asensio",
+            age: 28,
+            position: "Right Wing",
+            nationality: "Spain",
+            previousClub: "Real Madrid",
+            photo: "https://www.psg.fr/media/249241/joueurs-24-25_0004_asensio.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
             fact: ""
         },
         {
@@ -123,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function() {
             position: "Right-Winger",
             nationality: "France",
             previousClub: "FC Barcelona",
-            photo: "https://psg.fr/ousmane-dembele.jpg",
+            photo: "https://www.psg.fr/media/251515/joueurs-24-25_0008_dembele.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
             fact: ""
         },
         {
@@ -132,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function() {
             position: "Striker",
             nationality: "France",
             previousClub: "Eintracht Frankfurt",
-            photo: "https://psg.fr/randal-kolo-muani.jpg",
+            photo: "https://www.psg.fr/media/252969/joueurs-24-25_0003_kolo-muani.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
             fact: ""
         },
         {
@@ -141,16 +105,16 @@ document.addEventListener("DOMContentLoaded", function() {
             position: "Striker",
             nationality: "Portugal",
             previousClub: "Benfica",
-            photo: "https://psg.fr/goncalo-ramos.jpg",
+            photo: "https://www.psg.fr/media/251025/joueurs-24-25_0013_ramos.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
             fact: ""
         },
         {
-            name: "Lee Kang-In",
+            name: "Bradely Barcola",
             age: 22,
             position: "Right-Winger",
-            nationality: "South Korea",
+            nationality: "France",
             previousClub: "RCD Mallorca",
-            photo: "https://psg.fr/lee-kang-in.jpg",
+            photo: "https://www.psg.fr/media/252850/joueurs-24-25_0005_barcola.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75",
             fact: ""
         }        
     ];
